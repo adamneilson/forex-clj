@@ -79,6 +79,13 @@
 
 
 
+;; set up a schedule for running the process every day
+(def daily-forex-update
+  (schedule {:hour 24} load-all-currency-exchange-rates))
+
+
+
+
 ;for deployment purposes
 (defn -main
   [& [port]]

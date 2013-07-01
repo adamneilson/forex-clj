@@ -8,6 +8,7 @@
                  [com.taoensso/timbre "1.5.2"]
                  [clojurewerkz/money "1.3.0"]
                  [cheshire "5.2.0"]
+                 [schejulure "0.1.4"]
                  [org.clojars.scsibug/feedparser-clj "0.4.0"]]
   :plugins [[lein-ring "0.8.5"]]
   :ring {:handler price.handler/app}
